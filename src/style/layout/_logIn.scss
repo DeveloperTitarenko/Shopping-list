@@ -1,0 +1,23 @@
+.authorization {
+
+  form{
+    width: 80%;
+  }
+  &-right-signin {
+    @include flexPosition;
+    width: 60%;
+    text-align: center;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    .form-control {
+      height: 50px;
+      border-radius: 25px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .btn{
+      border-radius: 25px;
+    }
+  }
+}
