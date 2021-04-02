@@ -27,10 +27,10 @@ const Registration = () => {
           <Form.Control type="password" placeholder="Confirm password"/>
         </Form.Group>
 
-        <Button variant="primary" size="lg" block>
+        <Button variant="primary" size="lg" block onClick={() => history.push('/shopping-list')} >
           Register
         </Button>
-        <Button variant="link" size="lg" block onClick={() => history.push('/login')}>
+        <Button variant="link" size="lg" block onClick={() => history.push('/authorization')}>
           Sign In
         </Button>
         <div className="border"></div>

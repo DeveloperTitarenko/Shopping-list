@@ -50,6 +50,9 @@ html {
 .authorization-right-register .btn {
   border-radius: 25px;
 }
+.authorization-right-register .btn svg {
+  margin-right: 5%;
+}
 .authorization-right-register .border {
   width: 100%;
   height: 1px;
