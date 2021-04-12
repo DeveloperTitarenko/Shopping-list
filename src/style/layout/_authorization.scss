@@ -1,21 +1,112 @@
 
-.authorization {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.shopping-list {
   display: flex;
-  width: 40%;
-  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 
+  .authorization {
+    display: flex;
+    width: 900px;
+    border-radius: 20px;
 
-  &-left {
-    width: 45%;
-    img{
-      width: 100%;
-      height: 100%;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
+    @include response(xl) {
+      width: 700px;
+    }
+    @include response(lg) {
+      width: 600px;
+    }
+    @include response(md) {
+      width: 350px;
+    }
+
+    form {
+      width: 90%;
+    }
+
+    &-left {
+      width: 450px;
+      @include response(xl) {
+        width: 350px;
+      }
+      @include response(md) {
+        display: none;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+    }
+
+    &-right {
+      &-heading {
+        font-size: 40px;
+        @include response(xl) {
+          font-size: 35px;
+        }
+        @include response(lg) {
+          font-size: 30px;
+        }
+      }
+
+      @include flexPosition;
+      width: 450px;
+      text-align: center;
+      background-color: white;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      @include response(xl) {
+        width: 350px;
+      }
+      @include response(md) {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 10px;
+      }
+
+      .form-control {
+        height: 50px;
+        border-radius: 25px;
+        text-align: center;
+
+        @include response(xl) {
+          height: 35px;
+        }
+      }
+
+      .btn {
+        border-radius: 25px;
+
+        @include response(xl) {
+          font-size: 15px;
+          height: 35px;
+        }
+
+        svg {
+          margin-right: 10px;
+        }
+      }
+
+      .authorization-btn-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+
+      input:focus::-webkit-input-placeholder {
+        color: transparent;
+      }
+
+      .border {
+        width: 100%;
+        height: 1px;
+        margin: 20px 0;
+      }
     }
   }
 }

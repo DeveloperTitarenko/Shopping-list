@@ -1,8 +1,10 @@
 import React from 'react'
+import Table from '../Table/table'
+import './shopping-list.css'
 
 const ShoppingList = () => {
   return(
-    <h1>Shopping List</h1>
+          <Table/>
   )
 }
 
