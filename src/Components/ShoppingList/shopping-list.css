@@ -1,0 +1,46 @@
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  padding-top: 21px;
+}
+.home-header button {
+  border: none;
+  background-color: transparent;
+  padding: 15px 22px;
+}
+.home-header button:hover {
+  border: 1px solid #FFCA1D;
+}
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  text-align: center;
+}
+.home-content h1 {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 56px;
+  line-height: 68px;
+  margin-bottom: 25px;
+}
+.home-content h1 span:first-child {
+  background-color: orange;
+}
+.home-content h1 span:last-child {
+  font-weight: 700;
+}
+.home-content button {
+  background: #394BEB;
+  border-radius: 8px;
+  width: 210px;
+  height: 56px;
+  color: white;
+  border: none;
+  margin-bottom: 63px;
+}
+
+/*# sourceMappingURL=shopping-list.css.map */

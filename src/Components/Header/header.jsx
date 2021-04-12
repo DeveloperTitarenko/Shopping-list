@@ -3,17 +3,12 @@ import './header.css'
 import {Button, ButtonGroup, DropdownButton, Dropdown} from "react-bootstrap";
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import BadgeVisibility from "../btn-badge/btn-badge"
+import Logo from "./Logo/logo";
 
 const Header = () => {
   return(
     <div className="header">
-      <div className="header-logo">
-        <div className="logo">
-          <div className="right"></div>
-          <div className="left"></div>
-        </div>
-        <h1 className="heading">Screening <span>Tool</span></h1>
-      </div>
+      <Logo/>
 
         <nav className="header-nav">
           <ul>

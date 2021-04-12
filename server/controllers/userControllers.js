@@ -4,9 +4,8 @@ const register = async (req, res) => {
   const { username, email, password } = req.body
   if(!username && !email && !password) return res.status(403).send("Password or email or username doesn't exist")
   const userMail = await User.findOne({ email })
-  const userName = await User.findOne({ username })
-  console.log(userMail, userName)
-  if(userMail || userName) return res.status(400).send('User already exist')
+  console.log(userMail)
+  if(userMail ) return res.status(400).send('User already exist')
   const newUser = new User({ username, email  })
   console.log(newUser)
   newUser.setPassword(password)

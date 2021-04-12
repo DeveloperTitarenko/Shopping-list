@@ -1,14 +1,21 @@
+@import "../../style/abstracts/mixin";
 
 .shopping-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  //height: 100vh;
 
   .authorization {
+    background-color: #007CFF;
     display: flex;
-    width: 900px;
-    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    &-wrapper{
+      width: 900px;
+      display: flex;
+    }
 
     @include response(xl) {
       width: 700px;

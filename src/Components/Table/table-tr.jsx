@@ -51,6 +51,62 @@ const Tr = () => {
       id: '.../ID0004',
       status: 'In Progress'
     },
+    {
+      PollName: 'Poll Template2',
+      version: 'v2.06a',
+      created: '16.03.2021 18:32',
+      update: '22.03.2021 15:16',
+      id: '.../ID0003',
+      status: 'In Progress'
+    },
+    {
+      PollName: 'Poll Template3',
+      version: 'v2.07a',
+      created: '16.03.2021 18:32',
+      update: '25.03.2021 15:16',
+      id: '.../ID0004',
+      status: 'In Progress'
+    },
+    {
+      PollName: 'Poll Template3',
+      version: 'v2.07a',
+      created: '16.03.2021 18:32',
+      update: '25.03.2021 15:16',
+      id: '.../ID0004',
+      status: 'In Progress'
+    },
+    {
+      PollName: 'Poll Template2',
+      version: 'v2.06a',
+      created: '16.03.2021 18:32',
+      update: '22.03.2021 15:16',
+      id: '.../ID0003',
+      status: 'In Progress'
+    },
+    {
+      PollName: 'Poll Template3',
+      version: 'v2.07a',
+      created: '16.03.2021 18:32',
+      update: '25.03.2021 15:16',
+      id: '.../ID0004',
+      status: 'In Progress'
+    },
+    {
+      PollName: 'Poll Template3',
+      version: 'v2.07a',
+      created: '16.03.2021 18:32',
+      update: '25.03.2021 15:16',
+      id: '.../ID0004',
+      status: 'In Progress'
+    },
+    {
+      PollName: 'Poll Template2',
+      version: 'v2.06a',
+      created: '16.03.2021 18:32',
+      update: '22.03.2021 15:16',
+      id: '.../ID0003',
+      status: 'In Progress'
+    },
   ]
 
   return(

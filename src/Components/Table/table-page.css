@@ -1,0 +1,93 @@
+.table-page {
+  background-color: white;
+  width: 100%;
+  min-height: 100%;
+}
+.table-page .wrapper {
+  margin: 66px 255px 0 255px;
+}
+.table-page .wrapper .table-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.table-page .wrapper .table-header .table-filter {
+  width: 98px;
+  height: 48px;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.table-page .wrapper .table-header .table-filter svg {
+  margin-right: 11px;
+  width: 25px;
+  height: 25px;
+}
+.table-page table {
+  font-size: 15px;
+}
+.table-page table thead tr:first-child:hover {
+  background-color: white;
+}
+.table-page table th {
+  color: #838383;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+.table-page table tr {
+  border-radius: 20%;
+}
+.table-page table tr:hover {
+  background-color: #E5E5E5;
+}
+.table-page table tr:hover .btn-link svg {
+  background-color: #E5E5E5;
+}
+.table-page table td {
+  padding: 31px 0 31px;
+}
+.table-page table td:last-child {
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+.table-page table td:first-child {
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  padding-left: 36px;
+}
+.table-page .btn-link {
+  border: none;
+  margin-right: 7px;
+}
+.table-page .btn-link svg {
+  color: #16CB74;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+}
+.table-page .btn-file {
+  width: 24px;
+  height: 24px;
+  background-color: #16CB74;
+  border: none;
+  border-radius: 8px;
+  margin-left: 25px;
+}
+.table-page .btn-file svg {
+  color: white;
+}
+.table-page .status-btn {
+  width: 95px;
+  height: 24px;
+  font-size: 15px;
+  background: #FF7C1D;
+  border-radius: 999px;
+  color: white;
+  border: none;
+}
+
+/*# sourceMappingURL=table-page.css.map */

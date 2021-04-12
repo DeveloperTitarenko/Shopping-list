@@ -1,0 +1,45 @@
+.header {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  list-style: none;
+  margin-right: 82px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+.header ul li a {
+  color: black;
+  text-decoration: none;
+}
+.header ul li a:active {
+  border-bottom: 3px solid #FFCA1D;
+}
+.header-btn {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.header-btn .MuiBadge-badge {
+  background-color: #16CB74;
+}
+.header-btn-group button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.header-btn-group button:last-child {
+  border-left: 2px solid #EFEFEF;
+}
+.header-btn .BadgeVisibility button {
+  border: none;
+  background-color: white;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -9,14 +9,14 @@ import Header from "./Components/Header/header";
 
 function App() {
   const history = useHistory()
-  history.push('/table')
+  // history.push('/table')
   return (
     <>
       <Switch>
         <div className="shopping-list">
             <Route path='/authorization'  component={Authorization}/>
             <Route path='/shopping-list'  component={ShoppingList}/>
-          <Route path='/table' component={TablePage}/>
+            <Route path='/table' component={TablePage}/>
         </div>
         <Redirect to={'/authorization'}/>
       </Switch>

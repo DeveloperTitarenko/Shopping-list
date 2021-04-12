@@ -18,7 +18,7 @@ const SignIn = () => {
     axiosInstance.post('/signIn', { email, password })
       .then((response) => {
         const token = localStorage.setItem('token', response.data.token)
-        history.push('/shopping-list')
+        history.push('/table')
         setEmail('')
         setPassword('')
       }).catch(err => console.log(err))
@@ -52,4 +52,5 @@ const SignIn = () => {
     </div>
   )
 }
+
 export default SignIn
